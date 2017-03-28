@@ -28,7 +28,6 @@ h2 {
 h1,h2 {
   margin-left: 300px;
 
-  width: au
 }
  input {
    float: right;
@@ -42,7 +41,7 @@ h1,h2 {
 
  nav a {
    display: inline-block;
-   margin-left: 15%;
+   margin-left: 10%;
    padding: 10px 10px;
    background-color: #F3E9C5;
    border-top-left-radius: 5px;
