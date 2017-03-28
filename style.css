@@ -25,16 +25,20 @@ article:hover {
 }
 h1 {
   padding-top: 30px;
+  display: inline-block;
 }
 h2 {
   display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 h1,h2 {
   margin-left: 300px;
 
 }
  input {
-   float: right;
+
+   margin-left: 70%;
    display: inline-block;
    margin-right: 50px;
  }
