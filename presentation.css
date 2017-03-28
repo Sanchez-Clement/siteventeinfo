@@ -1,9 +1,27 @@
+header {
+  margin-bottom: 50px;
+}
+
+
 article {
   display: block;
-  margin: 50px;
+  width: 80%;
+  margin: auto;
+
+
 }
 article img {
-  width: 150%;
+  width: 30%;
   height: auto;
+  float: left;
+  margin-right: 30px;
 
+}
+
+h4 {
+  color: #009DD3
+}
+
+p {
+  text-align: justify;
 }
