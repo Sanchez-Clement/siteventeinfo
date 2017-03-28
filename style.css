@@ -65,6 +65,7 @@ h1,h2 {
    vertical-align: top;
    text-align: center;
    padding:  5px;
+   border: 1px dotted black;
 
 
  }
@@ -92,7 +93,7 @@ h1,h2 {
 
  footer {
    width: 100%;
-   
+
    background-image: url(header.png);
    background-size: 100%;
    margin-top: 50px;
