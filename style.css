@@ -1,28 +1,22 @@
-* {
+* { /* responsive*/
   box-sizing: border-box;
 }
+
 body {
 background-color: #E5E5E5;
 }
+/*----------------------Mise en forme du header ------------------------*/
 header {
 
   width: 100%;
   background-image: url(header.jpg);
-
   background-size: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-
-
-}
-a {
-  color: black;
-  text-decoration: none;
+  margin-bottom: 50px;
 }
 
-article:hover {
-  box-shadow: 2px 2px 2px black;
-}
+
 h1 {
   padding-top: 30px;
   display: inline-block;
@@ -33,11 +27,13 @@ h2 {
   margin-top: 0;
   margin-bottom: 20px;
 }
+
 h1,h2 {
   margin-left: 300px;
+  font-family :fantasy;
 
 }
- input {
+header input { /*barre de recherche*/
 
    margin-left: 70%;
    display: inline-block;
@@ -48,65 +44,147 @@ h1,h2 {
    width: 100%
  }
 
- nav a {
+ nav a { /*liens du menu*/
    display: inline-block;
    margin-left: 10%;
    padding: 10px 10px;
    background-color: #F3E9C5;
    border-top-left-radius: 5px;
    border-top-right-radius: 5px;
+   color: black;
+   text-decoration: none;
 
  }
- nav a:hover {
+
+ nav a:hover { /*liens du menu survolés*/
    background-color: white;
    color: #009DD3;
    font-weight: bold;
  }
- section {
-   width: 100%;
+
+/*-----------------Mise en page section ------------------*/
+
+section {
+  width: 100%;
+}
+
+  a article:hover {
+   box-shadow: 2px 2px 2px black;
  }
 
  h3 {
    margin-left: 30px;
    margin-top: 30px;
  }
+
+ article h3 { /* titre 3 qui ne sont pas dans la page d'accueil*/
+   text-align: center;
+   margin-left: 0;
+ }
+
+ h4 {
+   color: #009DD3;
+   text-align: center
+
+ }
+
  article {
+   display: block;
+   width: 80%;
+   margin: 20px auto;
+   background-color: white;
+   padding:  5px;
+   border: 1px dotted black;
+   margin-left: 6%;
+   text-align: justify;
+ }
+
+.vente1,.vente2,.vente3 { /*articles de la page d'accueil*/
    display: inline-block;
    width: 25%;
-   margin-left: 6%;
-   background-color: white;
    vertical-align: top;
    text-align: center;
    padding:  5px;
    border: 1px dotted black;
+ }
 
+
+ article img {
+   width: 30%;
+   height: auto;
+   float: left;
+   margin-right: 30px;
 
  }
 
- section img{
+
+ .vente1 img,.vente2 img,.vente3 img{ /* Images des articles de la page d'accueil*/
    width: 100%;
    height: auto;
  }
 
- .nom {
+ .nom { /* situé sur la page d'accueil*/
    text-decoration: underline;
    font-weight: bold;
+   text-align: center;
+   border: none;
  }
 
- .description {
+ .description { /* situé sur la page d'accueil*/
    font-style: italic;
-   font-size: 0.8em
+   font-size: 0.8em;
+   text-align: center;
  }
- .prix {
+
+ .prix { /* situé sur la page d'accueil*/
    color: red;
    font-size: 1.5em;
    background-color: yellow;
-
+   text-align: center;
+   border: none;
  }
 
+ article p { /* paragraphe de tous les articles */
+   text-align: justify;
+   border-bottom: 1px dashed #009DD3;
+   padding: 10px;
+ }
+
+ iframe {
+   margin-left: 10%;
+   width: 80%;
+ }
+/*--------------------------formulaire de page contact---------------*/
+ form div + div {
+     margin-top: 1em;
+ }
+
+ form input {
+   margin: auto;
+   width: 300px;
+ }
+
+ label {
+   display: inline-block;
+    width: 300px;
+
+    text-align: center;
+    vertical-align: top;
+ }
+  textarea {
+     vertical-align: top;
+     width: 300px;
+     height: 200px;
+  }
+  .button {
+  margin: auto;
+    width: 300px;
+  }
+
+
+/* ---------------Mise en page du footer-----------------*/
  footer {
    width: 100%;
-
    background-image: url(header.png);
    background-size: 100%;
    margin-top: 50px;
