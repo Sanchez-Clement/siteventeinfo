@@ -18,7 +18,7 @@ header {
 
 
 h1 {
-  padding-top: 30px;
+  padding-top: 10px;
   display: inline-block;
   margin-bottom: 0;
 }
@@ -26,6 +26,7 @@ h2 {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 h1,h2 {
@@ -48,10 +49,11 @@ header input { /*barre de recherche*/
    display: inline-block;
    margin-left: 10%;
    padding: 10px 10px;
-   background-color: #F3E9C5;
+   background-color: blue;
    border-top-left-radius: 5px;
    border-top-right-radius: 5px;
-   color: black;
+   color: white;
+   font-weight: bold;
    text-decoration: none;
 
  }
@@ -73,8 +75,9 @@ section {
  }
 
  h3 {
-   margin-left: 30px;
+   margin-left:30px;
    margin-top: 30px;
+
  }
 
  article h3 { /* titre 3 qui ne sont pas dans la page d'accueil*/
@@ -153,6 +156,14 @@ section {
  iframe {
    margin-left: 10%;
    width: 80%;
+ }
+
+ i{
+   margin-right: 10px;
+ }
+
+ a {
+   text-decoration: none;
  }
 /*--------------------------formulaire de page contact---------------*/
  form div + div {
