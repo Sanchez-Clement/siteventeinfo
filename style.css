@@ -30,7 +30,7 @@ h2 {
 }
 
 h1,h2 {
-  margin-left: 300px;
+  margin-left: 20%;
   font-family :fantasy;
 
 }
@@ -38,7 +38,7 @@ header input { /*barre de recherche*/
 
    margin-left: 70%;
    display: inline-block;
-   margin-right: 50px;
+
  }
 
  nav {
@@ -63,6 +63,16 @@ header input { /*barre de recherche*/
    color: #009DD3;
    font-weight: bold;
  }
+
+ @media only screen and (max-width: 768px) {
+   nav a {
+     width:100%;
+     margin-left: 0;
+   }
+   }
+
+
+
 
 /*-----------------Mise en page section ------------------*/
 
