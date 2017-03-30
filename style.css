@@ -3,6 +3,10 @@
   font-family: 'Oswald', sans-serif;
 }
 
+
+
+
+
 body {
 background-image: url(images/background.png);
 background-size: 100%;
@@ -64,11 +68,17 @@ header input { /*barre de recherche*/
    font-weight: bold;
  }
 
- @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
    nav a {
      width:100%;
      margin-left: 0;
    }
+
+  footer p {
+  display: block;
+  width: 75%;
+  text-align: center;
+  }
 
    }
 
@@ -261,6 +271,7 @@ section {
 	overflow: hidden;      /* on cache ce qui déborde */
   margin: auto;
 }
+
 #sContent {
 	position: absolute;   /* on sort l'élément du flux */
 	top: 0;               /* on le positionne précisément dans... */
