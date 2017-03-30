@@ -4,7 +4,6 @@
 }
 
 body {
-/*background-color: #E5E5E5;*/
 background-image: url(images/background.png);
 background-size: 100%;
 }
@@ -16,19 +15,17 @@ header {
   background-size: 30%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  /*margin-bottom: 50px;*/
 }
 
 
 h1 {
   padding-top: 10px;
-  display: inline-block;
   margin-bottom: 0;
 }
+
 h2 {
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 20px;
+
+  margin-top: 0 0 20 0;
   padding-bottom: 20px;
 }
 
@@ -36,14 +33,15 @@ h1,h2 {
   margin-left: 20%;
   font-family: 'Abril Fatface', cursive;
   color: white;
-
+  display: inline-block;
 }
+
+
 header input { /*barre de recherche*/
 
    margin-left: 70%;
    display: inline-block;
    width: 20%;
-
  }
 
  nav {
@@ -53,19 +51,11 @@ header input { /*barre de recherche*/
 
  nav a { /*liens du menu*/
    display: inline-block;
-   /*margin-left: 10%;
-   /*padding: 10px 10px;*/
    width: 24.76%;
-   /*padding: 0;*/
-   /*background-color: blue;*/
-   /*border-top-left-radius: 5px;
-   border-top-right-radius: 5px;*/
    color: white;
    text-align: center;
    padding: 5px;
-
    text-decoration: none;
-
  }
 
  nav a:hover { /*liens du menu survolés*/
@@ -79,6 +69,7 @@ header input { /*barre de recherche*/
      width:100%;
      margin-left: 0;
    }
+
    }
 
 
@@ -121,7 +112,7 @@ section {
    display: block;
    width: 80%;
    margin: 20px auto;
-    background-color: rgba(225, 225, 225, 0.6);
+  background-color: rgba(225, 225, 225, 0.6);
    padding:  5px;
    border: 1px dotted black;
    margin-left: 6%;
@@ -255,3 +246,46 @@ section {
    display: inline-block;
    margin-left: 13%;
  }
+
+/*-----------------------slideshox page accueil --------------------*/
+
+ div img {
+   width: 300px;
+   height: 150px;
+ }
+
+ #slideshow {
+	position: relative;    /* le parent positionné */
+	width: 300px;          /* limite en largeur (1 élément du slideshow) */
+	height: 150px;         /* limite en hauteur */
+	overflow: hidden;      /* on cache ce qui déborde */
+  margin: auto;
+}
+#sContent {
+	position: absolute;   /* on sort l'élément du flux */
+	top: 0;               /* on le positionne précisément dans... */
+	left: 0;              /* l'angle haut gauche de son parent positionné */
+	margin: 0;
+	padding: 0;
+        width: 300%;          /* ou 200% (car deux éléments) */
+	/* CSS3 Transition */
+  animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+#sContent li {
+	display: inline;      /* on aligne les éléments du slideshow */
+}
+
+@-moz-keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /*1ère image*/
+	}
+	35%, 50% {
+		left: -300px; /*2ème image*/
+	}
+	70%, 85% {
+		left: -600px; /*3ème image*/
+	}
+}
