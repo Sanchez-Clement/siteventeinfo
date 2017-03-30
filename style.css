@@ -289,7 +289,7 @@ section {
 	display: inline;      /* on aligne les éléments du slideshow */
 }
 
-@-moz-keyframes AutoSlide {
+@keyframes AutoSlide {
 	0%, 15%, 100% {
 		left: 0px; /*1ère image*/
 	}
