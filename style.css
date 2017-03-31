@@ -147,8 +147,7 @@ section {
    text-align: center;
    padding:  5px;
    border: 1px dotted black;
-   /*border-top-left-radius: 60px;
-   border-bottom-right-radius: 60px;*/
+
  }
 
  .vente1 {
@@ -158,14 +157,14 @@ section {
  }
 
  .vente2 {
-   padding-top: 55px;
+   padding-top: 88px;
    border-radius: 10px;
  }
 
  .vente3 {
    border-bottom-right-radius: 60px;
    border-top-left-radius: 60px;
-   padding-top: 55px;
+   padding-top: 88px;
  }
 
  article img {
