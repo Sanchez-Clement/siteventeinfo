@@ -1,16 +1,16 @@
-* { /* responsive*/
-  box-sizing: border-box;
+* {
+
   font-family: 'Oswald', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald');
 
-
-
 body {
-background-image: url(images/background.png);
-background-size: 100%;
+  background-image: url(images/background.png);
+  background-size: 100%;
 }
+
+
 /*----------------------Mise en forme du header ------------------------*/
 header {
 
@@ -56,7 +56,7 @@ header input { /*barre de recherche*/
    margin-top: -7%;
    margin-left: 15px;
  }
-
+/*****************Mise en forme du menu********************************/
  nav {
    width: 100%;
    background-color: blue;
@@ -64,7 +64,7 @@ header input { /*barre de recherche*/
 
  nav a { /*liens du menu*/
    display: inline-block;
-   width: 24.7%;
+   width: 23.9%;
    color: white;
    text-align: center;
    padding: 5px;
@@ -76,6 +76,7 @@ header input { /*barre de recherche*/
    color: #009DD3;
    font-weight: bold;
  }
+/******************************responsive************************************/
 
 @media only screen and (max-width: 1200px) {
    nav a {
@@ -131,7 +132,7 @@ section {
    display: block;
    width: 80%;
    margin: 20px auto;
-  background-color: rgba(225, 225, 225, 0.6);
+   background-color: rgba(225, 225, 225, 0.6);
    padding:  5px;
    border: 1px dotted black;
    margin-left: 6%;
@@ -149,13 +150,12 @@ section {
    /*border-top-left-radius: 60px;
    border-bottom-right-radius: 60px;*/
  }
+
  .vente1 {
    border-bottom-left-radius: 60px;
    border-top-right-radius: 60px;
 
  }
-
-
 
  .vente2 {
    padding-top: 55px;
@@ -167,7 +167,6 @@ section {
    border-top-left-radius: 60px;
    padding-top: 55px;
  }
-
 
  article img {
    width: 30%;
@@ -212,18 +211,21 @@ section {
    padding: 10px;
  }
 
- iframe {
+ iframe { /* map google*/
    margin-left: 10%;
    width: 80%;
  }
 
- i{
+ i{ /* tous les icones */
    margin-right: 10px;
  }
 
  a {
    text-decoration: none;
  }
+
+
+
 /*--------------------------formulaire de page contact---------------*/
  form div + div {
      margin-top: 1em;
@@ -237,18 +239,19 @@ section {
  label {
    display: inline-block;
     width: 300px;
-
     text-align: center;
     vertical-align: top;
  }
+
   textarea {
      vertical-align: top;
      width: 300px;
      height: 200px;
   }
+
   .button {
-  margin: auto;
-    width: 300px;
+     margin: auto;
+     width: 300px;
   }
 
 
