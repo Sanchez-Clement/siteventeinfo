@@ -90,6 +90,16 @@ header input { /*barre de recherche*/
   text-align: center;
   }
 
+  section a{
+    display: block;
+    width: 300%;
+    margin: auto;
+  }
+
+  .vente1,.vente2,.vente3 {
+    /*width: 300%;*/
+  }
+
    }
 
 
