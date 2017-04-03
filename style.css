@@ -157,14 +157,14 @@ section {
  }
 
  .vente2 {
-   padding-top: 88px;
+   padding-top: 73px;
    border-radius: 10px;
  }
 
  .vente3 {
    border-bottom-right-radius: 60px;
    border-top-left-radius: 60px;
-   padding-top: 88px;
+   padding-top: 73px;
  }
 
  article img {
@@ -172,7 +172,7 @@ section {
    height: auto;
    float: left;
    margin-right: 30px;
-   opacity: 2
+
 
  }
 
